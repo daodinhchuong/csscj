@@ -2,7 +2,7 @@ function FSAddOriginalLink(){
     var body_element = document.getElementsByTagName('body')[0];
     var selection;
     selection = window.getSelection();
-    var pagelink = "<br/><br/>Copyright by Nars Lipstick : <a href='www.facebook.com/narslipstick'>www.facebook.com/narslipstick"+document.location.pathname+"</a>";
+    var pagelink = "<br/><br/>Copyright by Chou Comestic : <a href='https://www.facebook.com/narslipstick/'>https://www.facebook.com/narslipstick/"+document.location.pathname+"</a>";
     var copytext = pagelink;
     var newdiv = document.createElement('div');
     newdiv.style.position='absolute';
